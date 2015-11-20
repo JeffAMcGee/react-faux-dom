@@ -1,0 +1,31 @@
+{
+  "name": "react-faux-dom",
+  "description": "DOM like data structure to be mutated by D3 et al, then rendered to React elements",
+  "authors": [
+    "Oliver Caldwell"
+  ],
+  "license": "Unlicense",
+  "keywords": [
+    "d3",
+    "react",
+    "dom"
+  ],
+  "homepage": "https://github.com/Olical/react-faux-dom",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "main": [
+    "src/Element.js",
+    "src/Window.js",
+    "src/ReactFauxDOM.js"
+  ],
+  "dependencies": {
+    "query-selector": "~1.0.9",
+    "style-attr": "~1.0.1",
+    "lodash": "~3.10.1"
+  }
+}
